@@ -1,0 +1,42 @@
+body {
+    background-color: #E2E3DD;
+    font-family: 'Palatino', URW Palladio L, serif
+}
+.header-img{
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    height: 200px;
+}
+.header-img img {
+    display: block;
+    width: 100%;
+    margin: -600px 0px;
+    
+}
+.nav-bar{
+    overflow: hidden;
+    position:fixed;
+    background-color: #14191D;
+    width: 100%; 
+}
+.nav-link {
+    color: #579564;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 15px 50px 20px;
+    float: left;
+    transition:background .10s ease;
+}
+.nav-link:hover{
+    background-color: #E2E3DD;
+  }
+.book{
+    width: 150px; 
+    height: 200px;
+    padding: 150px 100px;
+    float: left;
+}
+.text{
+    padding: 180px;
+}
